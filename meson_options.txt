@@ -1,0 +1,11 @@
+option('spout_sdk_path',
+  type: 'string',
+  description: 'Path to Spout2 SDK installation',
+  value: 'C:/SPOUT2SDK'
+)
+
+option('pluginsdir',
+  type: 'string',
+  description: 'GStreamer plugin directory',
+  value: 'C:/gstreamer/1.0/msvc_x86_64/lib/gstreamer-1.0'
+)
